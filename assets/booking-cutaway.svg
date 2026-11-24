@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -11 555 365" role="img" aria-labelledby="title"><title id="title">A booking passes through the browser, PHP handler and record store</title><style>
+.cutFace{fill:url(#paperFace);stroke:#a9a59d}.cutEdge{fill:#ece9e3;stroke:#aaa59c}.cutShadow{fill:#584739;opacity:.12}
+.cutArt{fill:none;stroke:#a6a09a;stroke-width:1.5}.cutArt rect{fill:white}.cutArt circle{fill:#918981;stroke:none}
+.accentFill{fill:#884536;stroke:none}.cutArt .accentLine{stroke:#884536;stroke-width:2}
+[data-layer="2"] .cutEdge{fill:#e6d5c9;stroke:#b19889}.cutGuide{fill:none;stroke:#ddd7ce;stroke-dasharray:2 5}
+.cutLeader{fill:none;stroke:#bcb4a9}.cutPin{fill:#a49a8f}.cutLabel{fill:#3c3531;font:23px Georgia,serif}
+.cutWire{fill:none;stroke:#884536;stroke-width:2.4}.cutRoutes circle{fill:white;stroke:#884536;stroke-width:2}#stackProbe{fill:none;stroke-width:1}
+.stepNote{fill:#625c56;font:15px Arial,sans-serif}.cutReturn{fill:none;stroke:#827c74;stroke-width:1.4;stroke-dasharray:3 3}.cutArt .savedRow{fill:#f4eae2;stroke:none}
+</style><defs>
+<linearGradient id="paperFace" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#fbfaf8"/></linearGradient>
+<linearGradient id="activeFace" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f7f2ed"/></linearGradient>
+<filter id="plateShadow" x="-25%" y="-60%" width="155%" height="250%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<path class="cutGuide" d="M34 76v213M254 111v213M311 49v213"/>
+<g class="cutPlane" data-layer="2" transform="translate(0 214)">
+ <path class="cutShadow" d="M34 84 91 22 311 57 256 119Z" filter="url(#plateShadow)"/>
+ <path class="cutEdge" d="M34 76 254 111 311 49v6l-57 62L34 82Z"/>
+ <path class="cutFace" d="M34 76 91 14 311 49 254 111Z"/>
+ <g class="cutArt" transform="matrix(1 .159 -.57 .62 91 14)"><rect class="window" x="15" y="9" width="189" height="80" rx="3"/><rect class="savedRow" x="17" y="57" width="185" height="29"/><path d="M15 33h189"/><path d="M24 56h169 M111 33v53 M26 45h51 M126 45h38 M26 69h37 M126 69h24"/></g>
+ <path class="cutLeader" d="M284 86h35"/><circle class="cutPin" cx="284" cy="86" r="2.5"/>
+ <text class="cutLabel" x="326" y="81">Record store</text><text class="stepNote" x="326" y="103">Save the valid booking</text></g><g class="cutPlane" data-layer="1" transform="translate(0 107)">
+ <path class="cutShadow" d="M34 84 91 22 311 57 256 119Z" filter="url(#plateShadow)"/>
+ <path class="cutEdge" d="M34 76 254 111 311 49v6l-57 62L34 82Z"/>
+ <path class="cutFace" d="M34 76 91 14 311 49 254 111Z"/>
+ <g class="cutArt" transform="matrix(1 .159 -.57 .62 91 14)"><rect class="window" x="15" y="10" width="189" height="78" rx="3"/>
+<path d="M24 35h170"/><circle cx="35" cy="61" r="4"/><path class="accentLine" d="M39 61h40l18 -13h35"/><path stroke-dasharray="4 3" d="M79 61l18 13h35"/>
+</g>
+ <path class="cutLeader" d="M284 86h35"/><circle class="cutPin" cx="284" cy="86" r="2.5"/>
+ <text class="cutLabel" x="326" y="81">PHP handler</text><text class="stepNote" x="326" y="103">Check the phone field</text></g><g class="cutPlane" data-layer="0" transform="translate(0 0)">
+ <path class="cutShadow" d="M34 84 91 22 311 57 256 119Z" filter="url(#plateShadow)"/>
+ <path class="cutEdge" d="M34 76 254 111 311 49v6l-57 62L34 82Z"/>
+ <path class="cutFace" d="M34 76 91 14 311 49 254 111Z"/>
+ <g class="cutArt" transform="matrix(1 .159 -.57 .62 91 14)"><rect class="window" x="15" y="9" width="189" height="80" rx="4"/><path d="M15 26h189"/>
+<circle cx="24" cy="18" r="1.6"/><circle cx="31" cy="18" r="1.6"/><circle cx="38" cy="18" r="1.6"/>
+
+<rect x="25" y="49" width="73" height="19" rx="2"/><rect x="108" y="49" width="81" height="19" rx="2"/>
+<path d="M26 41h29 M110 41h22 M31 59h47 M115 59h29"/><path class="accentFill" d="M149 74h40v9h-40z"/></g>
+ <path class="cutLeader" d="M284 86h35"/><circle class="cutPin" cx="284" cy="86" r="2.5"/>
+ <text class="cutLabel" x="326" y="81">Browser</text><text class="stepNote" x="326" y="103">Submit a booking</text></g>
+<g class="cutRoutes" aria-hidden="true"><path class="cutWire" d="M59 84v105l22 4v106"/><path class="cutReturn" d="M59 189l-15 9V85m-3 6 3-6 3 6"/>
+<circle cx="59" cy="84" r="3.5"/><circle cx="59" cy="189" r="3.5"/><circle cx="81" cy="299" r="3.5"/>
+<circle id="stackProbe" cx="81" cy="299" r="7"/></g></svg>

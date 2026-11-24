@@ -1,0 +1,18 @@
+.classroom{padding-bottom:40px}
+.archiveCard .fieldDuo{position:relative;background:white}.archiveCard .fieldDuo img.classInset{position:absolute;right:4%;bottom:5%;width:52%;height:55%;object-fit:contain;background:white;border:3px solid white;box-shadow:0 3px 14px #33272540}
+.frameworkMap{max-width:540px;margin-top:9px}.frameworkMap svg{display:block;width:100%}.frameworkMap text{font:12px Arial,sans-serif;fill:#58423f}
+.caseIntro,.caseGrid,.caseNote{display:grid;align-items:start;gap:6%}
+.caseIntro{grid-template-columns:1.2fr 1fr;border-top:1px solid var(--rule);padding:38px 0 26px}
+.caseIntro h1{max-width:17ch}.caseIntro>p{font:400 clamp(1.2rem,2vw,1.65rem)/1.45 var(--serif);margin:2rem 0 0}
+.caseFacts{display:grid;grid-template-columns:repeat(3,1fr);margin:0;border-block:1px solid var(--rule);padding:16px 0;gap:12px}
+.caseFacts dt,.caseFigure small{font-size:.75rem;color:#765850}.caseFacts dd{margin:3px 0;font:400 clamp(1.05rem,2vw,1.65rem) var(--serif)}
+.caseFigure{padding:32px 0}.caseFigure h2,.caseNote h2{font:400 clamp(1.55rem,2.8vw,2.5rem)/1.1 var(--serif);letter-spacing:-.035em;margin:8px 0 18px}
+.caseGrid{grid-template-columns:minmax(0,2.2fr) minmax(0,1fr);gap:4%;align-items:center}.caseGrid aside{border-left:2px solid #9b5158;padding:5px 0 7px 20px}
+.caseGrid h3{font:400 1.65rem/1.1 var(--serif);margin:7px 0}.caseGrid p,.caseNote p{color:#554d49;line-height:1.6}
+.casePlot svg,.caseThumb svg{width:100%;display:block}.casePlot text,.caseThumb text{font:12px Arial,sans-serif;fill:#504845}
+.casePlot[data-plot=assessment] svg{cursor:crosshair}
+.plotControls{display:grid;grid-template-columns:auto 1fr 4em;align-items:center;gap:8px 14px;border-top:1px solid var(--rule);padding:12px 0;font-size:.87rem}
+.plotControls input{accent-color:#8d3944;width:100%;min-width:0}.plotControls output{text-align:right;font-variant-numeric:tabular-nums}
+.caseNote{grid-template-columns:minmax(0,1fr) minmax(0,1.7fr);border-top:1px solid var(--rule);padding:20px 0}.caseNote p{margin:0 0 10px}.caseNote a{text-decoration:underline;text-underline-offset:3px;color:#743743}
+.archiveCard .caseThumb{background:#fff;display:flex;align-items:center;padding:8px;box-sizing:border-box;border-block:1px solid #e2d5cc}.caseThumb text{font-size:10px}
+@media(max-width:700px){.caseIntro,.caseGrid,.caseNote{grid-template-columns:minmax(0,1fr);gap:14px}.caseIntro>p{margin:0}.caseFacts{gap:7px}.caseFacts dd{font-size:1rem}.caseIntro{padding-top:23px}.caseGrid aside{min-height:100px}.caseFigure h2{margin-bottom:6px}}

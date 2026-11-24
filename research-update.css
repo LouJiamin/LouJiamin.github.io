@@ -1,0 +1,19 @@
+.researchPath{background:#faf6ef;border:1px solid #e0d4ca;padding:16px 20px}
+.researchPath h3{font-size:1.32rem;margin:0 0 10px}
+.pathButtons{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pathButtons button{font-size:.87rem;padding:5px 10px;background:#fffcf7}.pathButtons button[aria-pressed=true]{background:#83343c;color:white;border-color:#83343c}
+.pathButtons span{color:#a57367}.pathPanel{padding-top:9px}.pathPanel b{font-size:.93rem}.pathPanel p{margin:2px 0 0}
+.homePubs .venueMetric{font-size:.79rem;line-height:1.55;color:#715750;margin-top:5px}.venueMetric a{text-underline-offset:3px;text-decoration:underline}
+
+.researchStatus{color:var(--red);font-size:.68rem}
+@media(max-width:680px){.pathButtons{gap:4px}.pathButtons span{display:none}.pathButtons button{font-size:.77rem;padding:4px 6px}}
+.studyRow{display:block;padding:15px 0 17px;border-bottom:1px solid var(--rule);color:inherit;text-decoration:none}
+.studyRow:first-of-type{padding-top:0}.studyRow h3{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-top:4px}
+.studyRow h3 span{color:var(--red);font:.95rem sans-serif}.studyRow:hover h3,.studyRow:focus-visible h3{color:var(--red)}
+.studyList .researchPath{margin-top:18px}.studyList .researchPath h3{font-size:1.24rem}.studyList .pathPanel p{font-size:.89rem}
+.reviewVenue{border-top:1px solid var(--rule);padding:10px 0}.reviewVenue i{font:italic 1.17rem var(--serif)}
+.reviewVenue p{font-size:.81rem;color:#66534c}.reviewVenue a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.portfolioPlate .plateFeature img[src$="booking-cutaway.svg"]{object-fit:contain;object-position:center;background:#fff}
+.courseCard img[src$="booking-cutaway.svg"]{object-fit:contain;background:#fff}
+
+.home #home-web h3{color:var(--ink)}

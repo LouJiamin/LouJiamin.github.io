@@ -1,0 +1,70 @@
+/* The homepage is an index. Each substantial example has its own reading space. */
+.home .wrap{width:min(1430px,92%)}
+.homeLayout{display:grid;grid-template-columns:116px minmax(0,1fr);gap:clamp(25px,3vw,50px);align-items:start}
+.headLinks{display:flex;gap:24px;align-items:center;font-size:.85rem}
+.rail{position:sticky;top:36px;margin-top:clamp(48px,6vw,80px);align-items:stretch;flex-direction:column;gap:2px;border-left:1px solid var(--rule)}
+.rail a{font-size:.82rem;padding:5px 0 5px 13px;color:var(--muted)}
+.rail a[aria-current=true]{color:var(--red);font-weight:600;box-shadow:-2px 0 var(--red)}
+.home main{min-width:0}
+.home .hero{grid-template-columns:minmax(0,.97fr) minmax(0,1fr);gap:4%;padding:clamp(38px,5vw,76px) 0}
+.home .intro h1{margin:9px 0 15px;font-size:clamp(4.3rem,7.5vw,7.9rem)}
+.home .lead{font-size:clamp(1.5rem,2.1vw,2.15rem)}.home .bio{font-size:.97rem;max-width:47ch}
+.portfolioPlate{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1.25fr 1fr;gap:9px;aspect-ratio:1.27;background:#f4f0eb;padding:10px;border:1px solid #d7cec6;align-self:center}
+.portfolioPlate>a{display:grid;grid-template-rows:minmax(0,1fr) auto;min-height:0;overflow:hidden;background:#faf7f3}
+.portfolioPlate img{width:100%;height:100%;min-height:0;object-fit:cover;filter:saturate(.68) sepia(.17);transition:filter .2s ease}
+.portfolioPlate>a:hover img{filter:saturate(.95)}
+.portfolioPlate span{display:flex;align-items:center;justify-content:space-between;padding:4px 8px;color:#583d38;background:#fffaf6;font:500 .75rem/1.45 Arial,sans-serif;border-bottom:1px solid #d4c5b9}
+.portfolioPlate i{font-style:normal}.plateGame{grid-column:1 / -1}.plateGame img{object-position:50% 40%}
+.plateMap img{object-fit:contain;background:#fffcf8}.plateGesture img{object-position:54% 38%}
+.projectArchive{border-top:1px solid var(--rule);padding:38px 0 44px}
+.projectArchive>header{display:grid;grid-template-columns:.58fr 1.42fr;align-items:start;gap:7%;margin-bottom:24px}
+.projectArchive h2{font:400 clamp(1.8rem,2.4vw,2.8rem)/1.13 var(--serif);letter-spacing:-.045em;margin:0}
+.projectArchive header p,.archiveCard p{color:var(--muted);line-height:1.55}
+.archiveGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,1.8vw,28px)}
+.archiveCard{display:flex;flex-direction:column;align-items:flex-start}
+.archiveCard figure{width:100%;aspect-ratio:1.62;background:#f2efeb;overflow:hidden;margin-bottom:14px}
+.archiveCard img{display:block;width:100%;height:100%;object-fit:cover}
+.archiveCard .archiveSign{display:grid;grid-template-columns:minmax(0,.38fr) minmax(0,.62fr);grid-template-rows:minmax(0,1fr);align-items:center;gap:5px;padding:8px;background:#ede7df}
+.archiveSign img:first-child{object-fit:contain}.archiveSign img+img{object-position:53% center}
+.archiveCard .archiveChart{background:#f2efeb;padding:10px}.archiveChart img{object-fit:contain;background:white}
+.archiveCard small{color:var(--red);font-size:.65rem}.archiveCard h3{font-size:clamp(1.3rem,1.8vw,1.7rem);margin:6px 0}
+.archiveCard p{font-size:.9rem;margin-bottom:10px}.archiveCard>span{margin-top:auto;color:var(--red);font-size:.86rem;text-decoration:underline;text-underline-offset:4px}
+.signstage video{display:block;width:100%;height:clamp(255px,27vw,360px);object-fit:contain;background:#edece9}
+.signstage video[hidden]{display:none}
+.homeSection{display:grid;grid-template-columns:minmax(145px,.58fr) minmax(0,1.42fr);gap:7%;padding:36px 0 42px;border-top:1px solid var(--rule)}
+.homeSection h2{font:400 clamp(1.8rem,2.4vw,2.8rem)/1.13 var(--serif);letter-spacing:-.045em;margin:0}
+.homeSection h2 i{display:block;font-size:.81em}
+.homeSection h3{font:400 clamp(1.26rem,2vw,1.78rem)/1.26 var(--serif);margin:0 0 6px}
+.homeSection p{color:var(--muted);margin:6px 0;font-size:.95rem}
+.homeSection .under{display:inline-block;margin:9px 18px 0 0}
+.homePubs .history article{padding:10px 0 14px}.homePubs .history article:first-child{padding-top:0}.homePubs .history article:last-child{padding-bottom:0}
+.homePubs .history h3{font-size:1.29rem}.homePubs small{font-size:.66rem}
+.entryRow{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--rule);padding:12px 0}
+.entryRow:first-child{padding-top:0}.entryRow:last-child{border-bottom:0}
+.entryRow h3{font-size:1.35rem}.entryRow p{margin:0}.entryRow>span{font-size:1.15rem;color:var(--red)}
+#methods p+p{margin-top:12px}
+.detail h1{font:400 clamp(2.6rem,5vw,5rem)/1.05 var(--serif);letter-spacing:-.055em;margin:12px 0}
+.detail>section:first-child,.detail>section:first-child>.heading{border-top:0}
+.detail .gameLink{margin:0 0 14px}.gameTitle{padding:30px 0}.gameTitle .rubric{margin:28px 0 0}.gameTitle>p:last-child{max-width:65ch;color:var(--muted)}
+.levelsGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 3%;padding-bottom:20px}
+.levelImage{width:100%;display:block;padding:0;border:0;background:#242e2f;cursor:zoom-in}
+.levelImage img{width:100%;height:auto;display:block}
+.levelCard figcaption{padding:12px 0}.levelCard small{color:var(--red);font-size:.69rem}
+.levelCard h2{font:400 1.7rem/1.2 var(--serif);margin:4px 0 7px}.levelCard p{color:var(--muted);line-height:1.5}
+@media(max-width:1020px){
+.homeLayout{display:block}.rail{position:static;margin:0;flex-direction:row;align-items:center;gap:17px;border:0;border-bottom:1px solid var(--rule);padding:4px 0}
+.rail a{padding:5px 0}.rail a[aria-current=true]{box-shadow:0 1px var(--red)}
+}
+@media(max-width:760px){
+.archiveGrid,.projectArchive>header{grid-template-columns:1fr}.projectArchive>header{gap:10px}
+.archiveGrid{gap:28px}.archiveCard figure{max-height:270px}
+.home .hero,.homeSection{grid-template-columns:1fr;gap:18px}.home .hero{padding:28px 0}
+.home .intro h1{font-size:clamp(3.8rem,13vw,6rem)}.portfolioPlate{width:100%;max-width:530px;aspect-ratio:1.6}
+.homeSection{padding:27px 0}.homeSection h2 i{display:inline}.rail{flex-wrap:wrap;gap:12px}.rail a{font-size:.78rem}
+.levelsGrid{grid-template-columns:1fr;gap:20px}.headLinks{gap:12px}.detail .heading{padding-top:28px}
+}
+@media(prefers-reduced-motion:reduce){.portfolioPlate img{transition:none}}
+@media(max-width:480px){
+  .portfolioPlate{aspect-ratio:1.14}
+  .portfolioPlate span{gap:4px;font-size:.72rem;padding:3px 5px}
+}
