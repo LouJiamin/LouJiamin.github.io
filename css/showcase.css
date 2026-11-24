@@ -7,7 +7,7 @@
 .singleSign .signviewer{width:100%}
 @media(max-width:600px){.singleSign .signstage{grid-template-columns:minmax(0,1fr)}}
 .bookLab{border:1px solid #ddc6b7;background:#fffaf5}
-.shopScene{background:url("assets/web-interior.webp") center 53% / cover;min-height:clamp(230px,28vw,370px);display:flex;align-items:center;color:#fff6e8;padding:clamp(25px,4.5vw,70px);isolation:isolate}
+.shopScene{background:url("../assets/courses/web-interior.webp") center 53% / cover;min-height:clamp(230px,28vw,370px);display:flex;align-items:center;color:#fff6e8;padding:clamp(25px,4.5vw,70px);isolation:isolate}
 .shopScene small{color:#ffe1c3;letter-spacing:.17em;font-size:.68rem}.shopScene h2{font:400 clamp(3rem,5.8vw,6.5rem)/.93 var(--serif);letter-spacing:-.061em;margin:12px 0 15px}.shopScene i{color:#ffdbad}.shopScene p{font:italic 1.12rem var(--serif);color:#ffe8cf}
 .shopBench{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:4%;padding:clamp(16px,3vw,34px)}.repairSide>small{color:var(--red)}
 .repairTabs{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0}.repairTabs button,#booking button{font-size:.85rem;padding:6px 12px}.repairTabs button[aria-pressed=true],#booking button{background:#8e323d;color:white;border-color:#8e323d}
